@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://thamiris:MhYdgmdhLCoB7sLL@cluster0-lnznc.mongodb.net/virtualStore?retryWrites=true&w=majority"
+
+server:
+  port: 8080
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    org.springframework.web: ERROR
+    com.applicatio: INFO
+    org.hibernate: ERROR
