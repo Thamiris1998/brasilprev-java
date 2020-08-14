@@ -19,7 +19,7 @@
   
   OBS: Response Bearer token in headers Authorization
   
- ##### Product API instruction PRODUCT
+ ##### VirtualStore API instruction PRODUCT
   Method	| Path	| Description	| User authenticated {Bearer} | Available from UI
   --- | --- | --- |:---:|:---:|
   GET	| /virtualstore/product	| Get all products data	| × | ×
@@ -28,7 +28,7 @@
   PUT	| /virtualstore/product/{id}	| Update specified product data	| × | ×
   DELETE	| /virtualstore/product/{id[]}	| Delete specified product data	| × | ×
   
- ##### Product API instruction CLIENT
+ ##### VirtualStore API instruction CLIENT
   Method	| Path	| Description	| User authenticated {Bearer} | Available from UI
   --- | --- | --- |:---:|:---:|
   GET	| /virtualstore/client	| Get all clients data	| × | ×
@@ -37,7 +37,7 @@
   PUT	| /virtualstore/product/{id}	| Update client product data	| × | ×
   DELETE	| /virtualstore/product/{id[]}	| Delete client product data	| × | ×
   
- ##### Product API instruction ORDER
+ ##### VirtualStore API instruction ORDER
   Method	| Path	| Description	| User authenticated {Bearer}| Available from UI
   --- | --- | --- |:---:|:---:|
   POST	| /virtualstore/order	| Create new order data	| × | ×
